@@ -26,10 +26,13 @@ Antes de usar o script, certifique-se de ter instalado:
     cd ProjetoGit
     ```
 
-2. Dê permissão de execução ao script:
+2. Dê permissão de execução aos scripts:
 
     ```bash
     chmod +x gitflow_automation.sh
+    chmod +x branches_automation.sh
+    chmod +x pull.sh
+    chmod +x commit_push.sh
     ```
 
 ## Uso
@@ -38,3 +41,6 @@ Execute o script com o seguinte comando:
 
 ```bash
 ./gitflow_automation.sh
+./branches_automation.sh
+./pull.sh
+./commit_push.sh
